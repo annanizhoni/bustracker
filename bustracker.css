@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Change the background color of the map */
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #ffffff; /* Change the background color of the overlay */
+  font-family: Arial, sans-serif; /* Change the font family of the overlay */
+}
+
+.map-overlay button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em; /* Change the font size of the button */
+  background-color: #34abb5; /* Change the background color of the button */
+  color: #ffffff; /* Change the text color of the button */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.map-overlay button:hover {
+  background-color: #257981; /* Change the background color of the button on hover */
+}

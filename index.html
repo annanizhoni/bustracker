@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Map Animation</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <script src="bustracker.js"></script> <!-- Include JavaScript file -->
+    <link rel="stylesheet" href="bustracker.css"> <!-- Include CSS file -->
+    <script src="bustracker.json"></script> <!-- Include JSON file -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=MY_API_KEY&callback=initMap" async></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="map-overlay top">
+        <button style="font-size: 2em" onclick="move()">
+            Show Route 61 Sausalito Bolinas stops in Marin County, California
+        </button>
+    </div>
+</body>
+
+</html>
+

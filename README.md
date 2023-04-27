@@ -38,7 +38,7 @@ Click the green code button and download the zip file. Open the index.html file 
 
 ## Roadmap
 
-- Change the blue background to a flesh tone and make the eyes bloodshot.
+- Get the Marin County transit API to work so I can track the bus in real time. Get the custom colors to apply to the Google map. 
 
 
 ## License
